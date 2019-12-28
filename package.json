@@ -1,0 +1,25 @@
+{
+  "name": "ethical-learner",
+  "version": "1.0.0",
+  "description": "First Version",
+  "main": "index.html",
+  "dependencies": {
+    "@ckeditor/ckeditor5-build-classic": "^16.0.0",
+    "bcrypt": "^3.0.6",
+    "bootstrap": "^4.4.1",
+    "express": "^4.17.1",
+    "express-session": "^1.17.0",
+    "jquery": "^3.4.1",
+    "material-design-lite": "^1.3.0",
+    "mysql": "^2.17.1",
+    "owl.carousel2": "^2.2.1",
+    "popper.js": "^1.16.0",
+    "wow.js": "^1.2.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "start"
+  },
+  "author": "Sai kiran Reddy",
+  "license": "ISC"
+}

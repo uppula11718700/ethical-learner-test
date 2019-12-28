@@ -1,0 +1,53 @@
+<nav class="navbar navbar-light shadow-sm">
+    <a href="/"><img src="/assets/images/ethical-learner.png" class="main-logo" alt=""></a>
+    &nbsp; &nbsp; &nbsp; &nbsp;
+    <!-- search -->
+    <form class="form-inline mx-auto">
+        <div class="input-group-prepend">
+            <input type="text" class="form-control serach-input no-rounded left-rounded" placeholder="Search" aria-label="Username">
+            <button type="submit" class="btn bg-search no-rounded right-round"><i class="fas fa-search text-white"></i></button>
+        </div>
+    </form>
+    <div class="ml-auto d-none d-md-block">
+        <a href="/" class="text-dark"><button class="mdl-button mdl-js-button mdl-js-ripple-effect text-open text-capitalize"><i class="material-icons text-secondary">home</i> Home</button></a>
+        <a href="/blog" class="text-dark"><button class="mdl-button mdl-js-button mdl-js-ripple-effect text-open text-capitalize"><i class="fas fa-blog fa-lg text-secondary"></i> Blog</button></a>
+        <a href="/courses" class="text-dark"><button class="mdl-button mdl-js-button mdl-js-ripple-effect text-open text-capitalize"><i class="material-icons text-secondary">book</i>Courses</button></a>
+        <a href="/login.html" class="text-dark"><button class="mdl-button mdl-js-button mdl-js-ripple-effect text-open text-capitalize"><i class="material-icons text-secondary">account_circle</i>Login</button></a>
+    </div>
+</nav>
+
+<style>
+.main-logo
+{
+    max-width: 5rem;
+}
+.no-rounded
+{
+    border-radius: 0px ;
+}
+.bg-search
+{
+    background-color: #2C91D7;
+}
+.no-rounded:focus
+{
+    box-shadow: none ; 
+}
+.left-rounded
+{
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+.right-round
+{
+    border-bottom-right-radius: 18px;
+    border-top-right-radius: 18px;
+}
+@media (min-width: 576px)
+{
+.form-inline .form-control {
+    width: 25rem;
+    vertical-align: middle;
+}
+}
+</style>

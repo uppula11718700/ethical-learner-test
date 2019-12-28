@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+.text-open
+{
+    font-family: 'Open Sans', sans-serif;
+}
+.bg-theme-color
+{
+    background-color: #2C91D7;
+}
+.profile-picture
+{
+    max-width: 6rem;
+}
+.mdl-navigation__link
+{
+    transition: ease 1s !important;
+}
+.no-focus:focus
+{
+    box-shadow:none !important;
+}
+
+.blog-input
+{
+    width: 50% !important;
+}
+
+@media only screen and (max-width: 600px) {
+.blog-input
+    {
+        width: 100% !important;
+    }
+}

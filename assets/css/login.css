@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+.text-open
+{
+    font-family: 'Open Sans', sans-serif;
+}
+.login-div
+{
+   
+}
+.logo-login
+{
+    max-width: 5rem;
+}
+#progressbar-show
+{
+    display: none;
+}

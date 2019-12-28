@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+.text-open
+{
+    font-family: 'Open Sans', sans-serif;
+}
+.bg-theme-color
+{
+  background-color: #2C91D7;
+}
+/* div-one */
+.div-one
+{
+  background-image: url('/assets/images/bg-home-new.jpg');
+  background-size: 50rem;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+.div-one-bg
+{
+  height: 45rem;
+}
+.div-one
+{
+  
+  height: 45rem;
+}
+.div-one-head
+{
+  color: rgb(3, 12, 126);
+}
+.btn-color-explore
+{
+  background-color: rgb(21, 8, 94);
+}
+/*  */
+/* trends */
+.trends-head
+{
+  transform: skew(-15deg);
+}
+.bg-trend-one
+{
+  background-color: rgba(44, 215, 101, 0.479);
+}
+.bg-trend-two
+{
+  background-color: rgba(224, 131, 24, 0.479);
+}
+.bg-trend-three
+{
+  background-color: rgba(170, 27, 163, 0.479);
+}
+.bg-trend-four
+{
+  background-color: rgba(215, 44, 44, 0.479);
+}
+.bg-trend-five
+{
+  background-color: rgba(44, 55, 215, 0.479);
+}
+.bg-trend-six
+{
+  background-color: rgba(16, 95, 9, 0.479);
+}
+.bg-trend-seven
+{
+  background-color: rgba(238, 255, 7, 0.479);
+}
+.bg-trend-eight
+{
+  background-color: rgba(116, 8, 8, 0.479);
+}
+
+.div-trends
+{
+  background-image: url('/assets/images/bg-trends.jpg');
+  background-size: 90rem;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.no-bg
+{
+  background-color: rgba(255, 255, 255, 0.637);
+}
+.no-bg:active
+{
+  background-color: rgba(161, 161, 161, 0.925);
+}
+/*  */
+/* blog cards */
+.demo-card-wide.mdl-card {
+    width: 400px;
+  }
+  .demo-card-wide > .mdl-card__title {
+    color: #fff;
+    height: 100px;
+  }
+  .demo-card-wide > .mdl-card__menu {
+    color: #fff;
+  }
+.blog-user-image
+{
+    max-width: 3rem;
+    max-height: 3rem;
+}
+.blog-card-author-name
+{
+    max-width: 0.2rem !important;
+}
+.blog-card-date
+{
+    font-size: 0.9rem;
+}
+/*  */
+/* info tabs */
+.info-icons
+{
+  max-width: 4rem;
+}
+.info-tab-head
+{
+  color: rgb(18, 11, 121);
+}
+.owl-tabs-one 
+{
+  width: 20rem;
+}
+/*  */
+/* parallex */
+.div-parallex
+{
+  height: 200px;
+  background-image: url('/assets/images/goal-parallex.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+/*  */
+/* train company */
+.train-company-head
+{
+  color: rgb(3, 12, 126);
+}
+.btn-train-company
+{
+  background-color: rgb(3, 12, 126);
+
+}
+.img-train-comp
+{
+  max-width: 20rem;
+}
+/*  */
+/* mobile css */
+@media  (max-width: 568px) {
+.div-one
+{
+  background-image: url('/assets/images/bg-home.jpg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-size: 30rem 40rem;
+  background-position: 50%;
+}
+}
+
+/* no selection */
+.no-selection
+{
+    -webkit-touch-callout: none; /* iOS Safari */
+      -webkit-user-select: none; /* Safari */
+       -khtml-user-select: none; /* Konqueror HTML */
+         -moz-user-select: none; /* Firefox */
+          -ms-user-select: none; /* Internet Explorer/Edge */
+              user-select: none; /* Non-prefixed version, currently
+                                    supported by Chrome and Opera */
+}
+.no-selection:active
+{
+
+}
+/* Rules for sizing the icon. */
+.material-icons.md-18 { font-size: 18px; vertical-align:bottom; }
+.material-icons.md-24 { font-size: 24px; vertical-align:bottom; }
+.material-icons.md-36 { font-size: 36px; vertical-align:bottom; }
+.material-icons.md-48 { font-size: 48px; vertical-align:bottom; }

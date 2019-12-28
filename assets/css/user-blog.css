@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+.text-open
+{
+    font-family: 'Open Sans', sans-serif;
+}
+.bg-theme-color
+{
+    background-color: #2C91D7;
+}
+.profile-picture
+{
+    max-width: 6rem;
+}
+.mdl-navigation__link
+{
+    transition: ease 1s !important;
+}
+.no-focus:focus
+{
+    box-shadow:none !important;
+}
+
+.blog-input
+{
+    width: 50% !important;
+}
+
+@media only screen and (max-width: 600px) {
+.blog-input
+    {
+        width: 100% !important;
+    }
+}
+/* blog cards */
+.demo-card-wide.mdl-card {
+    width: 400px;
+  }
+  .demo-card-wide > .mdl-card__title {
+    color: #fff;
+    height: 100px;
+  }
+  .demo-card-wide > .mdl-card__menu {
+    color: #fff;
+  }
+.blog-user-image
+{
+    max-width: 3rem;
+    max-height: 3rem;
+}
+.blog-card-author-name
+{
+    max-width: 0.2rem !important;
+}
+.blog-card-date
+{
+    font-size: 0.9rem;
+}
+/*  */
+
+/* material icons sizing */
+.material-icons.md-18 { font-size: 18px; vertical-align:middle; padding-bottom: 3px; color: rgba(0, 0, 0, 0.54); }
+.material-icons.md-24 { font-size: 24px; vertical-align:middle; padding-bottom: 3px; color: rgba(0, 0, 0, 0.54);}
+.material-icons.md-36 { font-size: 36px; vertical-align:middle; padding-bottom: 3px; color: rgba(0, 0, 0, 0.54);}
+.material-icons.md-48 { font-size: 48px; vertical-align:middle; padding-bottom: 3px; color: rgba(0, 0, 0, 0.54);}
+/*  */

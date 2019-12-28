@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Login</title>
+    <link rel="icon" href="./assets/images/ethical-learner.png">
+    <!-- css links -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/node_modules/material-design-lite/material.min.css">
+    <link rel="stylesheet" href="/node_modules/owl.carousel2/dist/assets/owl.carousel.css">
+    <link rel="stylesheet" href="/node_modules/owl.carousel2/dist/assets/owl.theme.default.min.css">
+    <!-- custom css -->
+    <link rel="stylesheet" href="assets/css/login.css">
+</head>
+<body>
+    <!-- navbar -->
+    <div class="load-html"  data-source="./includes/navbar.html"></div>
+    <!--/navbar -->
+    <!-- main -->
+    <div class="row p-5">
+        <div class="col-md-7">
+            <img src="./assets/images/blog-bg.jpg" style="width: 100%;" alt="" srcset="">
+        </div>
+
+        <div class="col-md-5 col-sm login-div rounded shadow-lg" style="padding: 0;">
+            <div id="progressbar-show" class="mdl-progress mdl-js-progress mdl-progress__indeterminate w-100"></div>
+            <div class="p-3">
+                <p class="text-center h4 text-open p-3">
+                    <img src="./assets/images/ethical-learner.png" class="logo-login" alt="" srcset="">
+                    Ethical Learner
+                </p>
+                <div class="mdl-tabs mdl-js-tabs mdl-js-ripple-effect">
+                    <div class="mdl-tabs__tab-bar">
+                        <a href="#login-panel" class="mdl-tabs__tab is-active text-decoration-none w-25">Login</a>
+                        <a href="#signup-panel" class="mdl-tabs__tab text-decoration-none w-25">Signup</a>
+                    </div>
+                  
+                    <div class="mdl-tabs__panel is-active" id="login-panel">
+                      <form action="" class="ml-5" method="post">
+                        <br>
+                        <span class="font-weight-bold text-open">Username</span c>
+                        <input type="text" class="form-control col-md-7 col-sm" name="username" placeholder="Username" id="" required>
+                        <br>
+                        <span class="font-weight-bold text-open">Password</span>
+                        <input type="password" class="form-control col-md-7 col-sm" name="username" placeholder="Password" id="" required>
+                        <a href="" class="text-primary">Forgot Password?</a>
+                        <br>
+                        <br>
+                        <button type="submit" id="show-progressbar" class="mdl-button mdl-js-button mdl-js-ripple-effect bg-primary text-white border text-open text-capitalize">LOGIN<i class="material-icons">keyboard_arrow_right</i></button>
+                    </form>
+                    </div>
+                    <!-- signup form -->
+                    <div class="mdl-tabs__panel" id="signup-panel">
+                      <form action="" class="ml-5" method="post">
+                        <br>
+                        <span class="text-open font-weight-bold"></span>
+                        
+                        <br>
+                        <span class="text-open font-weight-bold">Username</span>
+                        <input type="text" class="form-control col-md-6 col-sm" placeholder="Enter Username" name="username" id="" required>
+                        <br>
+                        <span class="text-open font-weight-bold">Email Address</span>
+                        <input type="email" class="form-control col-md-6 col-sm" placeholder="Email Address" name="email" id="" required>
+                        <br>
+                        <span class="text-open font-weight-bold">First Name</span>
+                        <input type="text" class="form-control col-md-6 col-sm" placeholder="First Name" name="first" id="" required>
+                        <br>
+                        <span class="text-open font-weight-bold">Last Name</span>
+                        <input type="text" class="form-control col-md-6 col-sm" placeholder="Last Name" name="last" id="" required>
+                        <br>
+                        <span class="text-open font-weight-bold">Password</span>
+                        <input type="password" class="form-control col-md-6 col-sm" placeholder="Password" name="pass" id="" required>
+                        <br>
+                        <span class="text-open font-weight-bold">Re-enter Password</span>
+                        <input type="password" class="form-control col-md-6 col-sm" placeholder="Re-enter Password" name="repass" id="" required>
+                        <br>
+                        <span class="text-open font-weight-bold">Date of Birth</span>
+                        <input type="date" class="form-control col-md-6 col-sm" name="date" id="" required>
+                        <br>
+                        <br>
+                        <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="checkbox-2">
+                            <input type="checkbox" id="checkbox-2" class="mdl-checkbox__input" required>
+                            <span class="mdl-checkbox__label">By signing up I agree to <a href="" class="text-primary text-decoration-none">terms and services</a></span>
+                        </label>
+                        <button type="submit" class="mdl-button mdl-js-button mdl-js-ripple-effect bg-primary text-white border text-open text-capitalize">SIGNUP<i class="material-icons">keyboard_arrow_right</i></button>
+                    </form>
+                    </div>
+                  </div>
+                  
+                <br>
+                <br>
+            </div>
+        </div>
+    </div>
+
+    <!--/main -->
+    <!-- footer -->
+    <div class="load-html"  data-source="./includes/footer.html"></div>
+    <!--/footer -->
+    <!-- scripts -->
+    <script src="./node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="/node_modules/material-design-lite/material.min.js"></script>
+    <script src="https://kit.fontawesome.com/8484f5b087.js" crossorigin="anonymous"></script>
+    <script src="/node_modules/owl.carousel2/dist/owl.carousel.min.js"></script>
+    <script src="./assets/js/login.js"></script>
+    <script src="./assets/js/include.js"></script>
+</body>
+</html>

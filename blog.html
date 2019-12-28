@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Account Dashboard</title>
+    <link rel="icon" href="./assets/images/ethical-learner.png">
+    <!-- css links -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/node_modules/material-design-lite/material.min.css">
+    <link rel="stylesheet" href="/node_modules/owl.carousel2/dist/assets/owl.carousel.css">
+    <link rel="stylesheet" href="/node_modules/owl.carousel2/dist/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="/assets/css/blog.css">
+</head>
+<body>
+    <!-- navbar -->
+    <div class="load-html"  data-source="./includes/navbar.html"></div>
+    <!--/navbar -->
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-drawer mdl-layout--fixed-header">
+        <header class="mdl-layout__header bg-theme-color">
+            <div class="mdl-layout__header-row">
+                <span class="text-open h4">Dashboard</span>
+                <div class="mdl-layout-spacer"></div>
+                    <div class="mdl-textfield mdl-js-textfield mdl-textfield--expandable mdl-textfield--floating-label mdl-textfield--align-right">
+                    <!-- 
+                        space for search
+                    -->
+                        <div class="mdl-textfield__expandable-holder">
+                            <input class="mdl-textfield__input" type="text" name="sample" id="fixed-header-drawer-exp">
+                        </div>
+                    </div>
+            </div>
+        </header>
+        <div class="mdl-layout__drawer bg-white">
+            <div class="d-flex justify-content-center bg-theme-color pt-3">
+                <img src="./assets/images/demo-user-sai.png" class="profile-picture rounded-circle" alt="" srcset="">
+            </div>
+            <div class="d-flex justify-content-center bg-theme-color p-3">
+                <span class="h3 text-open text-white">Sai Reddy</span>
+            </div>
+            <nav class="mdl-navigation pt-0">
+              <a class="mdl-navigation__link border text-decoration-none" href=""><i class="material-icons">dashboard</i> &nbsp; Dashboard</a>
+              <a class="mdl-navigation__link border text-decoration-none" href=""><i class="material-icons">edit</i> &nbsp; Edit Profile</a>
+              <a class="mdl-navigation__link border text-decoration-none" href=""><i class="material-icons">book</i> &nbsp; Courses</a>
+              <a class="mdl-navigation__link border text-decoration-none" href=""><i class="material-icons">post_add</i> &nbsp; Blog</a>
+              <a class="mdl-navigation__link border text-decoration-none" href=""><i class="material-icons">security</i> &nbsp; Security</a>
+              <a class="mdl-navigation__link border text-decoration-none" href=""><i class="material-icons">arrow_back</i> &nbsp; Logout</a>
+            </nav>
+        </div>
+        <main class="mdl-layout__content">
+          <div class="page-content">
+              <div class="container">
+                  <span>jjj</span>
+
+                  <p class="h2"><i class="material-icons ">post_add</i> Add Blog </p>
+                  <!-- editor -->
+                  <!-- <div id="editor"></div> -->
+                  <form action="[URL]" method="post">
+                    <textarea name="content" id="editor"></textarea>
+                    <p><input type="submit" value="Submit"></p>
+                </form>
+                <script>
+                    ClassicEditor
+                        .create( document.querySelector( '#editor' ) )
+                        .catch( error => {
+                            console.error( error );
+                        } );
+                </script>                <button class="btn btn-primary" onclick="destroy();">hhh</button>
+              </div>
+              
+          </div>
+        </main>
+    </div>
+
+    
+
+    <!-- scripts -->
+    <script src="./node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="/node_modules/material-design-lite/material.min.js"></script>
+    <script src="https://kit.fontawesome.com/8484f5b087.js" crossorigin="anonymous"></script>
+    <script src="/node_modules/owl.carousel2/dist/owl.carousel.min.js"></script>
+    <script src="./node_modules/@ckeditor/ckeditor5-build-classic/build/ckeditor.js"></script>
+    <script src="./assets/js/include.js"></script>
+    <script src="./assets/js/blog.js"></script>
+</body>
+</html>
