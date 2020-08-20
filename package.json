@@ -5,7 +5,7 @@
   "main": "index.html",
   "dependencies": {
     "@ckeditor/ckeditor5-build-classic": "^16.0.0",
-    "bcrypt": "^3.0.6",
+    "bcrypt": "^5.0.0",
     "bootstrap": "^4.4.1",
     "express": "^4.17.1",
     "express-session": "^1.17.0",
